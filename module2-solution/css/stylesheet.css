@@ -2,7 +2,6 @@ body {
     font-family: Optima, Arial, Helvetica, sans-serif;
 }
 
-
 h1 {
     color: #666666;
     font-size: 24px;
@@ -28,7 +27,6 @@ p {
 .flex-container-row-2 {
     display: flex;
 }
-
 
 .box{
     background-color: #f0eff3;
@@ -68,9 +66,8 @@ p {
     margin-top: 40px;
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
+
     .flex-container-row-1 {
         display: flex;
         width: 100%;
@@ -81,8 +78,7 @@ p {
     }
   }
 
-
-  @media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .container-lg {
         flex-direction: column;
     }
@@ -92,6 +88,4 @@ p {
       }
 
 
-}
-
-    
+} 
