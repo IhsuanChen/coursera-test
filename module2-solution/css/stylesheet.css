@@ -1,0 +1,97 @@
+body {
+    font-family: Optima, Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    color: #666666;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    color: #2c0330;
+    font-size: 14px;
+    text-align: left;
+    padding: 16px;
+}
+
+.container-lg {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container-row-1 {
+    display: flex;
+  }
+
+.flex-container-row-2 {
+    display: flex;
+}
+
+
+.box{
+    background-color: #f0eff3;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+  }
+
+.label-1 {
+    background-color: rgb(248, 185, 204);
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    float: right;
+    padding: 12px;
+    text-align: center;
+}
+
+.label-2 {
+    background-color: rgb(250, 124, 124);
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    float: right;
+    padding: 12px;
+    text-align: center;
+}
+
+.label-3 {
+    background-color: rgb(253, 201, 142);
+    color: rgb(56, 56, 56);
+    font-size: 16px;
+    float: right;
+    padding: 12px;
+    text-align: center;
+}
+
+.box > p {
+    margin-top: 40px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .flex-container-row-1 {
+        display: flex;
+        width: 100%;
+      }
+
+    .container-lg {
+        flex-wrap: wrap;
+    }
+  }
+
+
+  @media only screen and (max-width: 767px) {
+    .container-lg {
+        flex-direction: column;
+    }
+
+    .flex-container-row-1 {
+        flex-direction: column;
+      }
+
+
+}
+
+    
