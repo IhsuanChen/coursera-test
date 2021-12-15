@@ -30,6 +30,8 @@ p {
 
 .box{
     background-color: #f0eff3;
+    border-style: solid;
+    border-width: 1px;
     flex-direction: row;
     margin: 10px;
     text-align: center;
@@ -37,6 +39,12 @@ p {
 
 .label-1 {
     background-color: rgb(248, 185, 204);
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;    
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;   
     color: rgb(56, 56, 56);
     font-size: 16px;
     float: right;
@@ -46,6 +54,12 @@ p {
 
 .label-2 {
     background-color: rgb(250, 124, 124);
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;    
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;   
     color: rgb(56, 56, 56);
     font-size: 16px;
     float: right;
@@ -55,6 +69,12 @@ p {
 
 .label-3 {
     background-color: rgb(253, 201, 142);
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: 1px;    
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;   
     color: rgb(56, 56, 56);
     font-size: 16px;
     float: right;
